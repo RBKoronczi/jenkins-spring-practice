@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "rbkoronczi/helloworld-spring"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8080",
+      "hostPort": "80"
+    }
+  ]
+}
